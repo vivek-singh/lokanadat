@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="SISBLRLPT059" id="0" name="AuthorTests" package="sigma" tests="2" time="0.814" timestamp="2012-06-15T14:43:30">
+      <properties />
+
+      <testcase classname="sigma.AuthorTests" name="testSomething" time="0.692" />
+
+      <testcase classname="sigma.AuthorTests" name="testFirstName" time="0.099">
+          <error message="No signature of method: sigma.User.validate() is applicable for argument types: () values: [] Possible solutions: wait(), getState()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: sigma.User.validate() is applicable for argument types: () values: []
+Possible solutions: wait(), getState()
+	at sigma.AuthorTests.testFirstName(AuthorTests.groovy:25)
+	at TestApp$_run_closure4.doCall(TestApp:271)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:228)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:187)
+	at TestApp$_run_closure1.doCall(TestApp:174)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:82)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+--Output from testFirstName--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+--Output from testFirstName--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
